@@ -1,0 +1,21 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 286127bd-42c8-4a30-9f57-3a6cd66e5a96
+  title: XAI para Detección de Anomalías
+  toc:
+    - file: 00_intro.md
+      title: "0. Introducción"
+
+    - file: 01_Anomaly_detection.ipynb
+      title: "1. Anomaly detection"
+  # description:
+  # keywords: []
+  # authors: []
+  github: https://github.com/mikelgalafate/anomaly_detection
+  # To autogenerate a Table of Contents, run "myst init --write-toc"
+site:
+  template: book-theme
+  options:
+     favicon: fig/logo.png
+     logo: fig/logo.png
